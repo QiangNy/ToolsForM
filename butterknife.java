@@ -25,7 +25,7 @@ apply plugin: 'com.neenbedankt.android-apt' //添加这一行
 
 //将依赖包导进module
 compile rootProject.ext.butternife
-apt rootProject.ext.butternife
+apt rootProject.ext.butternifeapt
 
 4.android studio 添加butterknife插件
 plugin中导入, 右键activity 中布局资源,选择generate
